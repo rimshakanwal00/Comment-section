@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Addcomt from "./Components/Addcomt";
+function commentSec(){
+return(
+  <div className="bg-gradient-to-r from-slate-300 via-gray-600 to-gray-300 h-screen ">
+    <h1 className=" text-2xl font-bold mb-4 text-center pt-10">Comments section</h1>
+  <Addcomt/></div>
+  
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+)
 }
-
-export default App;
+export default commentSec;
